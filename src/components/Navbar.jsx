@@ -43,7 +43,7 @@ function Navbar() {
             </div>
           ) : (
             <>
-              <Typography sx={{ flexGrow: 1, display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "start" }}>
+              <Typography sx={{ flexGrow: 1 }}>
                 <img src="/logo.png" alt="" style={{}} />
               </Typography>
 
@@ -90,3 +90,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
